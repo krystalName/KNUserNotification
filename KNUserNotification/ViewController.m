@@ -29,7 +29,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     //设置数据
-    self.dataArray = [NSArray arrayWithObjects:@"推送样式1",@"推送样式2",@"推送样式3",@"推送图片",@"推送gif",@"推送音频",@"推送视频", nil];
+    self.dataArray = [NSArray arrayWithObjects:@"推送样式1",@"推送样式2",@"推送样式3",@"推送图片",@"推送gif",@"推送音频",@"推送视频",@"自定义样式", nil];
     //添加表格
     [self.view addSubview:self.tableView];
 }
@@ -86,8 +86,11 @@
         case 6://推送视频
             [[KNNotification SharedNotification] addNotificationWithAttachmentType:AttachmeMovie];
             break;
+        case 7:
+            [[KNNotification SharedNotification] addLocalWithMyCategoriesUI];
+            break;
         default:
-            
+
             break;
     }
 }
