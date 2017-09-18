@@ -13,7 +13,43 @@
 		C29E9E341F690D7D00170C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E331F690D7D00170C4E /* Assets.xcassets */; };
 		C29E9E371F690D7D00170C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E351F690D7D00170C4E /* LaunchScreen.storyboard */; };
 		C29E9E3A1F690D7D00170C4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9E391F690D7D00170C4E /* main.m */; };
+		C29E9E421F690E5000170C4E /* KNNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9E411F690E5000170C4E /* KNNotification.m */; };
+		C29E9E581F6A347200170C4E /* 731740.png in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E571F6A307900170C4E /* 731740.png */; };
+		C29E9E591F6A347200170C4E /* AndyM - Falling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E521F6A2FDA00170C4E /* AndyM - Falling.mp3 */; };
+		C29E9E5A1F6A347200170C4E /* bao.gif in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E531F6A2FDA00170C4E /* bao.gif */; };
+		C29E9E5B1F6A347200170C4E /* music.caf in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E541F6A2FDA00170C4E /* music.caf */; };
+		C29E9E5C1F6A347200170C4E /* 纪念碑谷.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E561F6A2FDA00170C4E /* 纪念碑谷.mp4 */; };
+		C29E9E8D1F6A5A1300170C4E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29E9E8C1F6A5A1300170C4E /* UserNotifications.framework */; };
+		C29E9E8F1F6A5A1300170C4E /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29E9E8E1F6A5A1300170C4E /* UserNotificationsUI.framework */; };
+		C29E9E931F6A5A1300170C4E /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9E921F6A5A1300170C4E /* NotificationViewController.m */; };
+		C29E9E961F6A5A1300170C4E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E941F6A5A1300170C4E /* MainInterface.storyboard */; };
+		C29E9E9B1F6A5A1300170C4E /* KNContect.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C29E9E8A1F6A5A1300170C4E /* KNContect.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C29E9ED11F6A63ED00170C4E /* 125.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C29E9ED01F6A63D600170C4E /* 125.jpg */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C29E9E981F6A5A1300170C4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29E9E1F1F690D7D00170C4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29E9E891F6A5A1300170C4E;
+			remoteInfo = KNContect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C29E9E9A1F6A5A1300170C4E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C29E9E9B1F6A5A1300170C4E /* KNContect.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C29E9E271F690D7D00170C4E /* KNUserNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNUserNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +62,23 @@
 		C29E9E361F690D7D00170C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C29E9E381F690D7D00170C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C29E9E391F690D7D00170C4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C29E9E401F690E5000170C4E /* KNNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNotification.h; sourceTree = "<group>"; };
+		C29E9E411F690E5000170C4E /* KNNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNotification.m; sourceTree = "<group>"; };
+		C29E9E431F69192A00170C4E /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		C29E9E4A1F6A246100170C4E /* KNUserNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KNUserNotification.entitlements; sourceTree = "<group>"; };
+		C29E9E521F6A2FDA00170C4E /* AndyM - Falling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AndyM - Falling.mp3"; sourceTree = "<group>"; };
+		C29E9E531F6A2FDA00170C4E /* bao.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bao.gif; sourceTree = "<group>"; };
+		C29E9E541F6A2FDA00170C4E /* music.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.caf; sourceTree = "<group>"; };
+		C29E9E561F6A2FDA00170C4E /* 纪念碑谷.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "纪念碑谷.mp4"; sourceTree = "<group>"; };
+		C29E9E571F6A307900170C4E /* 731740.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 731740.png; sourceTree = "<group>"; };
+		C29E9E8A1F6A5A1300170C4E /* KNContect.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KNContect.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29E9E8C1F6A5A1300170C4E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		C29E9E8E1F6A5A1300170C4E /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		C29E9E911F6A5A1300170C4E /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		C29E9E921F6A5A1300170C4E /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		C29E9E951F6A5A1300170C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		C29E9E971F6A5A1300170C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29E9ED01F6A63D600170C4E /* 125.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 125.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +89,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C29E9E871F6A5A1300170C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29E9E8F1F6A5A1300170C4E /* UserNotificationsUI.framework in Frameworks */,
+				C29E9E8D1F6A5A1300170C4E /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -43,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				C29E9E291F690D7D00170C4E /* KNUserNotification */,
+				C29E9E901F6A5A1300170C4E /* KNContect */,
+				C29E9E8B1F6A5A1300170C4E /* Frameworks */,
 				C29E9E281F690D7D00170C4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				C29E9E271F690D7D00170C4E /* KNUserNotification.app */,
+				C29E9E8A1F6A5A1300170C4E /* KNContect.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,17 +123,55 @@
 		C29E9E291F690D7D00170C4E /* KNUserNotification */ = {
 			isa = PBXGroup;
 			children = (
+				C29E9E4A1F6A246100170C4E /* KNUserNotification.entitlements */,
+				C29E9E511F6A2FDA00170C4E /* Resources */,
+				C29E9E431F69192A00170C4E /* Macro.h */,
 				C29E9E2A1F690D7D00170C4E /* AppDelegate.h */,
 				C29E9E2B1F690D7D00170C4E /* AppDelegate.m */,
 				C29E9E2D1F690D7D00170C4E /* ViewController.h */,
 				C29E9E2E1F690D7D00170C4E /* ViewController.m */,
 				C29E9E301F690D7D00170C4E /* Main.storyboard */,
+				C29E9E401F690E5000170C4E /* KNNotification.h */,
+				C29E9E411F690E5000170C4E /* KNNotification.m */,
 				C29E9E331F690D7D00170C4E /* Assets.xcassets */,
 				C29E9E351F690D7D00170C4E /* LaunchScreen.storyboard */,
 				C29E9E381F690D7D00170C4E /* Info.plist */,
 				C29E9E391F690D7D00170C4E /* main.m */,
 			);
 			path = KNUserNotification;
+			sourceTree = "<group>";
+		};
+		C29E9E511F6A2FDA00170C4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9ED01F6A63D600170C4E /* 125.jpg */,
+				C29E9E571F6A307900170C4E /* 731740.png */,
+				C29E9E521F6A2FDA00170C4E /* AndyM - Falling.mp3 */,
+				C29E9E531F6A2FDA00170C4E /* bao.gif */,
+				C29E9E541F6A2FDA00170C4E /* music.caf */,
+				C29E9E561F6A2FDA00170C4E /* 纪念碑谷.mp4 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C29E9E8B1F6A5A1300170C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9E8C1F6A5A1300170C4E /* UserNotifications.framework */,
+				C29E9E8E1F6A5A1300170C4E /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29E9E901F6A5A1300170C4E /* KNContect */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9E911F6A5A1300170C4E /* NotificationViewController.h */,
+				C29E9E921F6A5A1300170C4E /* NotificationViewController.m */,
+				C29E9E941F6A5A1300170C4E /* MainInterface.storyboard */,
+				C29E9E971F6A5A1300170C4E /* Info.plist */,
+			);
+			path = KNContect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,15 +184,34 @@
 				C29E9E231F690D7D00170C4E /* Sources */,
 				C29E9E241F690D7D00170C4E /* Frameworks */,
 				C29E9E251F690D7D00170C4E /* Resources */,
+				C29E9E9A1F6A5A1300170C4E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C29E9E991F6A5A1300170C4E /* PBXTargetDependency */,
 			);
 			name = KNUserNotification;
 			productName = KNUserNotification;
 			productReference = C29E9E271F690D7D00170C4E /* KNUserNotification.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C29E9E891F6A5A1300170C4E /* KNContect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29E9E9E1F6A5A1300170C4E /* Build configuration list for PBXNativeTarget "KNContect" */;
+			buildPhases = (
+				C29E9E861F6A5A1300170C4E /* Sources */,
+				C29E9E871F6A5A1300170C4E /* Frameworks */,
+				C29E9E881F6A5A1300170C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNContect;
+			productName = KNContect;
+			productReference = C29E9E8A1F6A5A1300170C4E /* KNContect.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -101,6 +223,15 @@
 				ORGANIZATIONNAME = KrystalName;
 				TargetAttributes = {
 					C29E9E261F690D7D00170C4E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					C29E9E891F6A5A1300170C4E = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -120,6 +251,7 @@
 			projectRoot = "";
 			targets = (
 				C29E9E261F690D7D00170C4E /* KNUserNotification */,
+				C29E9E891F6A5A1300170C4E /* KNContect */,
 			);
 		};
 /* End PBXProject section */
@@ -129,9 +261,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29E9ED11F6A63ED00170C4E /* 125.jpg in Resources */,
+				C29E9E581F6A347200170C4E /* 731740.png in Resources */,
+				C29E9E591F6A347200170C4E /* AndyM - Falling.mp3 in Resources */,
+				C29E9E5A1F6A347200170C4E /* bao.gif in Resources */,
+				C29E9E5B1F6A347200170C4E /* music.caf in Resources */,
+				C29E9E5C1F6A347200170C4E /* 纪念碑谷.mp4 in Resources */,
 				C29E9E371F690D7D00170C4E /* LaunchScreen.storyboard in Resources */,
 				C29E9E341F690D7D00170C4E /* Assets.xcassets in Resources */,
 				C29E9E321F690D7D00170C4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29E9E881F6A5A1300170C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29E9E961F6A5A1300170C4E /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +291,27 @@
 				C29E9E2F1F690D7D00170C4E /* ViewController.m in Sources */,
 				C29E9E3A1F690D7D00170C4E /* main.m in Sources */,
 				C29E9E2C1F690D7D00170C4E /* AppDelegate.m in Sources */,
+				C29E9E421F690E5000170C4E /* KNNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29E9E861F6A5A1300170C4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29E9E931F6A5A1300170C4E /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C29E9E991F6A5A1300170C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29E9E891F6A5A1300170C4E /* KNContect */;
+			targetProxy = C29E9E981F6A5A1300170C4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C29E9E301F690D7D00170C4E /* Main.storyboard */ = {
@@ -165,6 +328,14 @@
 				C29E9E361F690D7D00170C4E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C29E9E941F6A5A1300170C4E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29E9E951F6A5A1300170C4E /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,12 +449,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KNUserNotification/KNUserNotification.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG6Q85865M;
 				INFOPLIST_FILE = KNUserNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LeessangDer.KNUserNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = Leessang.KNNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,12 +466,43 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KNUserNotification/KNUserNotification.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG6Q85865M;
 				INFOPLIST_FILE = KNUserNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LeessangDer.KNUserNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = Leessang.KNNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C29E9E9C1F6A5A1300170C4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG6Q85865M;
+				INFOPLIST_FILE = KNContect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leessang.KNNotification.KNContect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C29E9E9D1F6A5A1300170C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VG6Q85865M;
+				INFOPLIST_FILE = KNContect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leessang.KNNotification.KNContect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -319,6 +524,15 @@
 			buildConfigurations = (
 				C29E9E3E1F690D7D00170C4E /* Debug */,
 				C29E9E3F1F690D7D00170C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29E9E9E1F6A5A1300170C4E /* Build configuration list for PBXNativeTarget "KNContect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29E9E9C1F6A5A1300170C4E /* Debug */,
+				C29E9E9D1F6A5A1300170C4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

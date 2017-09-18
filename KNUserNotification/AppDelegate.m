@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "KNNotification.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //注册推送
+    [[KNNotification SharedNotification] registerNotifiCation];
+    //设置推送样式
+    [[KNNotification SharedNotification] setCategories];
     return YES;
 }
 
