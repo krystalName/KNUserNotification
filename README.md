@@ -81,11 +81,11 @@
 
 ```
 
-然后还有自定义的推送样式。 先上gif
+### 然后还有自定义的推送样式。 先上gif
 ![](https://github.com/krystalName/KNUserNotification/blob/master/MyNotification.gif)
 
-使用storyboard定义的样式。
+### 使用storyboard定义的样式。
 ![](https://github.com/krystalName/KNUserNotification/blob/master/myNotifitionstyle.png)
 
-获取到UNMutableNotificationContent 里面的推送内容~
+获取到UNMutableNotificationContent 里面的推送内容~  觉得可以。 给我一个star哦～ 
 
