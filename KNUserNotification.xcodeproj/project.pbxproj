@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C24685621F6FBFB900E3E8E4 /* basketball.gif in Resources */ = {isa = PBXBuildFile; fileRef = C24685611F6FBFB100E3E8E4 /* basketball.gif */; };
 		C29E9E2C1F690D7D00170C4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9E2B1F690D7D00170C4E /* AppDelegate.m */; };
 		C29E9E2F1F690D7D00170C4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9E2E1F690D7D00170C4E /* ViewController.m */; };
 		C29E9E321F690D7D00170C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29E9E301F690D7D00170C4E /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C24685611F6FBFB100E3E8E4 /* basketball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = basketball.gif; sourceTree = "<group>"; };
 		C29E9E271F690D7D00170C4E /* KNUserNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNUserNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C29E9E2A1F690D7D00170C4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C29E9E2B1F690D7D00170C4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		C29E9E511F6A2FDA00170C4E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C24685611F6FBFB100E3E8E4 /* basketball.gif */,
 				C29E9ED01F6A63D600170C4E /* 125.jpg */,
 				C29E9E571F6A307900170C4E /* 731740.png */,
 				C29E9E521F6A2FDA00170C4E /* AndyM - Falling.mp3 */,
@@ -261,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C24685621F6FBFB900E3E8E4 /* basketball.gif in Resources */,
 				C29E9ED11F6A63ED00170C4E /* 125.jpg in Resources */,
 				C29E9E581F6A347200170C4E /* 731740.png in Resources */,
 				C29E9E591F6A347200170C4E /* AndyM - Falling.mp3 in Resources */,

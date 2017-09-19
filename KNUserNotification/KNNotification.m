@@ -194,7 +194,7 @@ MImplementeSharedInstance(SharedNotification)
             break;
             case AttachmeImageGif:
             contectSting = @"附件 - gif";
-            path = [[NSBundle mainBundle]pathForResource:@"bao" ofType:@"gif"];
+            path = [[NSBundle mainBundle]pathForResource:@"basketball" ofType:@"gif"];
             break;
             case AttachmeAudio:
             contectSting = @"附件 - 音频";
